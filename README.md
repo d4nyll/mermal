@@ -83,6 +83,9 @@ See `mermal --help` for more options.
   * Lacks extensive testing
   * Throws error if the file could not be found
   * Must specify the path of every file
+* [`swagger-yaml`](https://github.com/idlerun/swagger-yaml)
+  * Not available as a CLI
+  * Opinionated about where you place your source files
 
 ## TODO
 
