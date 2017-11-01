@@ -45,4 +45,3 @@ test('Merges multiple YAML files, from different directories, together', async (
   const srcDir2 = `${srcDirPath}/users`;
   await expect(merge(baseFilePath, [srcDir1, srcDir2])).resolves.toEqual(expected);
 });
-
