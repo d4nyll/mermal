@@ -2,7 +2,7 @@
 const program = require('commander');
 const ora = require('ora');
 const chalk = require('chalk');
-const merge = require('./index.js').default;
+const merge = require('./index.js').toFile;
 
 const spinner = ora('Parsing options').start();
 
