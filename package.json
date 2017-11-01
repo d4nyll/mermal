@@ -48,7 +48,7 @@
     "fix": "./node_modules/.bin/eslint --fix src/**",
     "lint": "./node_modules/.bin/eslint src/**",
     "prepare": "yarn run build",
-    "prepublishOnly": "yarn run lint",
+    "prepublishOnly": "yarn run lint && yarn run test",
     "test": "./node_modules/.bin/jest src"
   }
 }
