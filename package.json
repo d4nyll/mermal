@@ -38,7 +38,7 @@
     "yaml"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/d4nyll/mermal.git"
