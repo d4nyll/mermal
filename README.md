@@ -9,6 +9,8 @@ Merges one or more YAML files into a base file.
 
 ## Usage
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/d4nyll/mermal.svg)](https://greenkeeper.io/)
+
 `mermal` is a Node library but it also provides a CLI.
 
 ### Install
