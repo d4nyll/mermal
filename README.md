@@ -4,12 +4,11 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/d4nyll/mermal/badge.svg)](https://snyk.io/test/github/d4nyll/mermal)
 [![Build Status](https://travis-ci.org/d4nyll/mermal.svg?branch=master)](https://travis-ci.org/d4nyll/mermal)
+[![Greenkeeper badge](https://badges.greenkeeper.io/d4nyll/mermal.svg)](https://greenkeeper.io/)
 
 Merges one or more YAML files into a base file.
 
 ## Usage
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/d4nyll/mermal.svg)](https://greenkeeper.io/)
 
 `mermal` is a Node library but it also provides a CLI.
 
