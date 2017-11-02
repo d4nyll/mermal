@@ -1,6 +1,6 @@
 <a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RsafjPW16XoFBW5YtJcMdsmm/d4nyll/mermal'>
   <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RsafjPW16XoFBW5YtJcMdsmm/d4nyll/mermal.svg' />
-</a>
+</a><br/><br/>
 
 [![Known Vulnerabilities](https://snyk.io/test/github/d4nyll/mermal/badge.svg)](https://snyk.io/test/github/d4nyll/mermal)
 [![Build Status](https://travis-ci.org/d4nyll/mermal.svg?branch=master)](https://travis-ci.org/d4nyll/mermal)
@@ -10,7 +10,11 @@ Merges one or more YAML files into a base file.
 
 ## Usage
 
-`mermal` is a Node library but it also provides a CLI.
+`mermal` is available on NPM.
+
+[![NPM](https://nodei.co/npm/mermal.png?compact=true)](https://nodei.co/npm/mermal/)
+
+`mermal` provides an <abbr title="Application programming interface">API</abbr> as well as a <abbr title="Command-line interface">CLI</abbr>.
 
 ### Install
 
@@ -19,7 +23,7 @@ Merges one or more YAML files into a base file.
 $ yarn add mermal   # Using yarn
 $ npm install mermal    # Using npm
 
-# Or globall
+# Or globally
 $ yarn global add mermal   # Using yarn
 $ npm install -g mermal    # Using npm
 ```
