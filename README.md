@@ -2,6 +2,8 @@
   <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RsafjPW16XoFBW5YtJcMdsmm/d4nyll/mermal.svg' />
 </a>
 
+[![Known Vulnerabilities](https://snyk.io/test/github/d4nyll/mermal/badge.svg)](https://snyk.io/test/github/d4nyll/mermal)
+
 Merges one or more YAML files into a base file.
 
 ## Usage
