@@ -1,7 +1,3 @@
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RsafjPW16XoFBW5YtJcMdsmm/d4nyll/mermal'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RsafjPW16XoFBW5YtJcMdsmm/d4nyll/mermal.svg' />
-</a><br/><br/>
-
 [![Known Vulnerabilities](https://snyk.io/test/github/d4nyll/mermal/badge.svg)](https://snyk.io/test/github/d4nyll/mermal)
 [![Build Status](https://travis-ci.org/d4nyll/mermal.svg?branch=master)](https://travis-ci.org/d4nyll/mermal)
 [![Greenkeeper badge](https://badges.greenkeeper.io/d4nyll/mermal.svg)](https://greenkeeper.io/)
