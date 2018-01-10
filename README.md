@@ -1,6 +1,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/d4nyll/mermal/badge.svg)](https://snyk.io/test/github/d4nyll/mermal)
 [![Build Status](https://travis-ci.org/d4nyll/mermal.svg?branch=master)](https://travis-ci.org/d4nyll/mermal)
 [![Greenkeeper badge](https://badges.greenkeeper.io/d4nyll/mermal.svg)](https://greenkeeper.io/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fd4nyll%2Fmermal.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fd4nyll%2Fmermal?ref=badge_shield)
 
 Merges one or more YAML files into a base file.
 
@@ -96,3 +97,7 @@ See `mermal --help` for more options.
 * Improve Tests
 * More tests
 * Handle edge cases
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fd4nyll%2Fmermal.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fd4nyll%2Fmermal?ref=badge_large)
