@@ -17,7 +17,7 @@
     "js-yaml": "^3.11.0",
     "lodash.flattendeep": "^4.4.0",
     "lodash.merge": "^4.6.1",
-    "ora": "^2.1.0"
+    "ora": "^3.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
