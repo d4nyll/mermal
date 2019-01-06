@@ -14,7 +14,7 @@
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
     "glob": "^7.1.2",
-    "js-yaml": "^3.11.0",
+    "js-yaml": "^3.12.1",
     "lodash.flattendeep": "^4.4.0",
     "lodash.merge": "^4.6.1",
     "ora": "^2.1.0"
