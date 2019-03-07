@@ -1,9 +1,8 @@
 language: node_js
 node_js:
   - "node"
-  - "8"
-  - "7"
-  - "7.10.1"
-  - "7.9.0"
+  - "lts/*"
+  - "lts/carbon"
+  - "8.0.0"
 before_install:
   - npm i -g npm@5.2.0
