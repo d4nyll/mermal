@@ -3,6 +3,5 @@ node_js:
   - "node"
   - "lts/*"
   - "lts/carbon"
-  - "8.0.0"
 before_install:
   - npm i -g npm@5.2.0
