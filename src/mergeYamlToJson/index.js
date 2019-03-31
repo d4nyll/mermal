@@ -1,8 +1,8 @@
 import { safeLoad as jsYamlSafeLoad } from 'js-yaml';
 import { readFileSync } from 'fs';
 import { sync as glob } from 'glob';
-import merge from 'lodash.merge';
-import flatten from 'lodash.flattendeep';
+import extend from 'just-extend';
+import flatten from 'just-flatten-it';
 
 function getYamlInDir(dir) {
   return glob(`${dir}/**/*.yaml`);
@@ -30,7 +30,7 @@ async function mergeYamlToJson(baseYamlPath, searchDirs) {
     const filePaths = await getYamlInDirs(dirs);
     filePaths.forEach((file) => {
       const fileContent = loadYaml(file);
-      merge(baseJson, fileContent);
+      extend(true, baseJson, fileContent);
     });
     // Get all the sub files
     return baseJson;
