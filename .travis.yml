@@ -14,4 +14,5 @@ deploy:
     repo: d4nyll/mermal
     branch: master
     tags: true
+    node: node
 
