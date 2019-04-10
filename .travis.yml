@@ -1,7 +1,16 @@
 language: node_js
 node_js:
-  - "node"
-  - "lts/*"
-  - "lts/carbon"
-before_install:
-  - npm i -g npm@5.2.0
+- node
+- lts/*
+- lts/carbon
+deploy:
+  provider: npm
+  email:
+    secure: pHBmE0ydAG2iEZDDPkEmoBTwrcScG46ek+dACuGGBupvaNteqh60AV80mRmGQ0jCum/o+Jr0Ybv+Vf+ASM2M2dAD96pdiVA6o45s1KcRea4Ggz+Og4h2ifRNxO+rFGwqCxbh3kSMVV0fWtrIjXvL+ouEgyl9Qqj/czJDBSn9uk1f5Bmjh1mZIHtnc3Zw4z3fdjdQ5TegC4RYMD4edUHjxaNtAUQLAPZARwOHTVgf+hFkzbVXCWyn0KGBhiSpQAGBCfEqHdXDqe+La6W2S0my4hIFgRRE6MtrX3g/Wad00c/r0enUtJsZJ2sDy3DgExsTSMJykKbxfWnA0YaBl+7WbE+kGG0yWBX52iCQYJJ6yh5+y+6BER9qBBNQZiqBqCptjf53MwyIwOvW0bp9aDbY3moMnAdGrAhaBspFgiKeAq37NNdfvBaOVaxWRxh7IpBmQ3kfn0iZ0sqKFl4DiKN/CKflPAmcFFIl4ViraQCMll3fjxua+IN1TcqDtYVXwLIpIaVcHStQEvy7aTD2frMiWZJxP5EybTmlswpBKOXk+h/gvqwOkx4cin1kxqngZKNfX/b2QmEU74tlWgAeI4JIZcYp1bs+CpsOQju09++c07kFFhtUH87Hr0yCgikwvkhvIJe9Zt8VWNz4Cs0DcwnWUClQeCP9J2JEJXsDSAFIMvM=
+  api_key:
+    secure: FoiHwF0wqsImR0dE8VGPInusRe/r8Pt/SgRkJnG1KlbjBsOH/vBWVsK+vBnAjbrm1R7cxHLeQw03H6snrQg0qCE7JVZdtfiXARSQ+YQy7/FejaROqMCsmK0NcGMIYTbj8uHjchU1XJCWDp91TE+aqZnCF96P1YfxCb4ynWmsBZAVXIXINNYqRTwvLEchYTj986FMyO0a2HthLvaz2CAlOoqQVzRefSH3K0Hs9tZy/0SMF1BPee2X4VhbMdckRLRX1qqhCPOGIhwEYXTAbP/BJnBPkdwJkL5D9bGtKOBbZZT28GucriHQTZu4wLVkKULi/itbykDN6LEkwzSR5gs7GZOgf6E4KFF+Ab9LHMInfcSZTikq4R60Q8F7r4kv/y7ILE2yI1HqsBHDkpBcKbeLNMW/oyUiC5fGKfytUgvwtKkaaCya/E9344UaPaaTeoTwOe4aemzgj/RpA635r87zcXkEfNoBvto6QUcEjaWZbPgawsash1MGbZf27UJ1cTqHAVkLXMvQcpsP/wxSyfU0WQBKH7M8Ks8boQy4IIDoGhOGyw0pS31wJ74kpChW7/edUb2Ds2Zv3Du7fztoGnReY62rQ7rBhx/mzzMEb+x5CJT2mXzLYG8F1Lo90sHfR8X6qoeSVgU3HZeyeVEimxkDHwkfcKXimwzio8kDpU4t8JY=
+  on:
+    repo: d4nyll/mermal
+    branch: master
+    tags: true
+
