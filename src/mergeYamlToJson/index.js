@@ -9,7 +9,7 @@ function getYamlInDir(dir) {
 }
 
 function getYamlInDirs(dirs) {
-  return Promise.all(dirs.map(async dir => getYamlInDir(dir)))
+  return Promise.all(dirs.map(async (dir) => getYamlInDir(dir)))
     .then(flatten);
 }
 
