@@ -1,4 +1,4 @@
-import { safeLoad as jsYamlSafeLoad } from 'js-yaml';
+import { load } from 'js-yaml';
 import { readFileSync } from 'fs';
 import { sync as glob } from 'glob';
 import extend from 'just-extend';
@@ -14,7 +14,7 @@ function getYamlInDirs(dirs) {
 }
 
 function loadYaml(path) {
-  return jsYamlSafeLoad(readFileSync(path, 'utf8')) || {};
+  return load(readFileSync(path, 'utf8')) || {};
 }
 
 function standardizeDirs(dirs) {
