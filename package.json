@@ -28,8 +28,8 @@
     "jest": "^29.7.0"
   },
   "engines": {
-    "node": ">=8.0.0",
-    "npm": "~5.2.0"
+    "node": ">=18.0.0",
+    "npm": ">=9.8.1"
   },
   "homepage": "https://github.com/d4nyll/mermal",
   "keywords": [
