@@ -1,15 +1,10 @@
-[![Build Status](https://travis-ci.org/d4nyll/mermal.svg?branch=master)](https://travis-ci.org/d4nyll/mermal)
-[![Maintainability](https://api.codeclimate.com/v1/badges/988aa7d648997b23e4f7/maintainability)](https://codeclimate.com/github/d4nyll/mermal/maintainability)
-[![Greenkeeper badge](https://badges.greenkeeper.io/d4nyll/mermal.svg)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/github/d4nyll/mermal/badge.svg)](https://snyk.io/test/github/d4nyll/mermal)
+[![CI Build Status](https://github.com/d4nyll/mermal/actions/workflows/ci.yaml/badge.svg)](https://travis-ci.org/d4nyll/mermal) [![Maintainability](https://api.codeclimate.com/v1/badges/988aa7d648997b23e4f7/maintainability)](https://codeclimate.com/github/d4nyll/mermal/maintainability)
 
 Merges one or more YAML files into a base file.
 
 ## Usage
 
-`mermal` is available on NPM.
-
-[![NPM](https://nodei.co/npm/mermal.png?compact=true)](https://nodei.co/npm/mermal/)
+`mermal` is available on [npmjs.com](https://www.npmjs.com/package/mermal).
 
 `mermal` provides an <abbr title="Application programming interface">API</abbr> as well as a <abbr title="Command-line interface">CLI</abbr>.
 
